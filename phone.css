@@ -1,23 +1,22 @@
-.container{
+.main{
     display: flex;
-    justify-content: center;
-    min-height: 95vh;
-    margin-left: 100px;
-    border-radius: 10px;
-    background-color: antiquewhite;
+        justify-content: center;
+        min-height: 95vh;
+        margin-left: 101px;
+        border-radius: 0px;
 }  
-.box1{
-    margin-left: -12px;
-    margin-bottom: 13px;
-    box-shadow: 5px;
-}  
-.img{
-
+.box{
+    height: 350px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: 20px;
 }
 .info1{
-    border :1px solid;
     border-radius: 4px;
-    padding: 15px;
+    padding: 10px;
     margin-right: 262px;
     margin-top: 6px;
     padding-bottom: 13px;
@@ -27,17 +26,10 @@
     border-radius: 5px;
     padding: 10px;
 }
-.box2{
-    margin-left: -164px;
-    margin-top:74px;
-    margin-bottom: 25px;
-}
-.img1{
-    height: 314px;
 
-}
+
 .info2{
-    border: 1px solid;
+    
     border-radius: 4px;
     padding: 22px;
     margin-right: 112px;
@@ -47,17 +39,9 @@
     border-radius: 5px;
     padding: 10px;
 }
-.box3{
-    margin-left: -47px;
-    margin-top: 117px;
-    margin-bottom: 58px;
-}
-.img2{
-    height: 184px;
 
-}
 .info3{
-    border :1px solid;
+   
     border-radius: 4px;
     padding: 15px;
     margin-right:5px;
@@ -68,18 +52,11 @@
     border-radius: 5px;
     padding: 10px;
 }
-.box4{
-    margin-left: 150px;
-    margin-right: 39px;
-    margin-bottom: 29px;
-    margin-top: 22px;
-}
-.img3{
-    height:251px;
 
-}
+
+
 .info4{
-    border: 1px solid;
+    
     border-radius: 4px;
     margin-top: 0px;
     padding: 15px;
